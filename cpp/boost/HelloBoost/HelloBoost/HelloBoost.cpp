@@ -5,6 +5,7 @@
 // http://www.boost.org/doc/libs/1_60_0/more/getting_started/windows.html
 
 #include "stdafx.h"
+#include "HelloBoost.h"
 
 #include <boost/lambda/lambda.hpp>
 #include <iostream>
@@ -24,7 +25,10 @@ int hello_boost_lambda()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	hello_boost_lambda();
+	hello_boost_spirit();
+	//hello_boost_lambda();
+
+	system("pause");
 	return 0;
 }
 
